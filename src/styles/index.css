@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('//db.onlinewebfonts.com/c/00370d92f1b404768d34ac7dc664289e?family=Sansation');
+* {
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #FEF2E9; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #9E9E9E; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9E9E9E; 
+  }
+html {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* position: relative; */
+}
+
+.slick-next:before {
+    position: absolute !important;
+    right: 40px !important;
+    margin: 0px !important;
+    color: black !important;
+}
+.slick-prev:before {
+    position: absolute !important;
+    left: 10px !important;
+    margin: 0px !important;
+    color: black !important;
+}
+
+.carouselArrowBtn {
+    width: 60px !important;
+    height: 60px !important;
+    z-index: 1 !important;
+    background-color: black;
+}
+
+.slick-slide {
+    margin: 0 0px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 10px;
+}
+.sliderWidth {
+    width: 100%;
+}
