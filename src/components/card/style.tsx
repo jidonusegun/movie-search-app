@@ -19,6 +19,6 @@ export default makeStyles({
         alignItems: 'center',
         textAlign: 'center',
         color: '#FFFFFF',
-        textShadow: '2px 2px #ff0000'
+        // textShadow: '2px 2px #ff0000'
     },
 })
