@@ -4,7 +4,7 @@ export default makeStyles({
     category: {
         textTransform: 'uppercase',
         marginTop: '2rem',
-        borderBottom: '1px solid #eeeeee',
+        borderBottom: '1px solid #e3e3e3',
         marginBottom: '1rem',
         fontFamily: 'DM Sans',
         fontStyle: 'normal',

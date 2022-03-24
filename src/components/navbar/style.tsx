@@ -4,7 +4,7 @@ import theme from '../../styles/theme';
 export default makeStyles({
     container: {
         background: '#292929',
-        height: '140px',
+        height: '80px',
         display: 'flex',
         alignItems: 'center',
         [theme.breakpoints.down('sm')]: {
