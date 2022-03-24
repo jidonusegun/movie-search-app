@@ -17,7 +17,7 @@ const Carousel = ({ querySearch, type }: Props): JSX.Element => {
   useLayoutEffect(() => {
     const getMovies = async() => {
       setIsLoading(true)
-      const {data} = await Axios.get(`http://www.omdbapi.com/?apikey=b94a337b&type=${type}&s=${querySearch}`);
+      const {data} = await Axios.get(`https://www.omdbapi.com/?apikey=b94a337b&type=${type}&s=${querySearch}`);
       setIsLoading(false)
       setMovies(data.Search); 
     }

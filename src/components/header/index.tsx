@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <header className={styles.container}>
             <div className={`${globalStyle.container} ${styles.messageContainer}`}>
-                <h1 className={styles.message}>Watch something incredible</h1>
+                <h1 className={styles.message}>Watch something incredible.</h1>
             </div>
         </header>
     )
